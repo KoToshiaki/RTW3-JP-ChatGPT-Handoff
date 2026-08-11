@@ -2,50 +2,46 @@
 
 Project: Rule the Waves 3 Japanese localisation
 Game version: 1.01.38
-Current cumulative translations: 2113
-Current deployed JPN SHA-256: BF55CD2EC9113D23EEC2483D8B16F394D9535A2B4112A025E2069661B92F575C
+Current cumulative translations: 2158
+Current deployed JPN SHA-256: 34D58299963CDCA891F9A9DE85FF338949F6B5673C9B3111E6461EAE971611A4
 
-Current review task: **NORMAL_CAMPAIGN_VISIBLE_FIXED_BATCH_02_V10138**
+Current review task: **PLAYER_VISIBLE_ITEMS_SAFETY_ROUND_01_V10138**
 Review directory: `chatgpt_handoff/current/`
 
 ## What this round is
 
-The final joint batch of the DFM fixed-UI phase: **20 normal-campaign forms,
-46 translate candidates**. After this batch is reviewed and applied, every
-safe fixed-UI string a player sees in a normal campaign will be in Japanese.
+The normal-campaign DFM fixed-UI phase is practically complete (A+B residual
+= 0). This round is the **Items safety round**: 30 player-visible held Items
+were investigated read-only. Only **2 items** were proven safe
+(`TDLGPICKFORCE/rgStartRange`: Classic / Long — a complete TRadioGroup).
+Those 2 are the only translation-review targets.
 
 ## Files
 
 | File | SHA-256 |
 |---|---|
-| 01_visible_fixed_batch.md | ED0D02CABBFDB23D9076D218DA838054867D1D9C6A000B9502A6A4B6DB9E6C4F |
-| 98_do_not_translate.md | 321EFC848E003BC26EC1C514EABA19F94AD27ADB1636E16F28457856DADCD1EE |
-| 99_review_required.md | 4039BE7B0648FC2323216A4A2A4456F37B315CB87EF60BCEDBDAD10B169ABDB8 |
-| _batch_source_map.csv | 025BF296675DB8DC1FA99D3DDE7AE7BAB7DC02C9DFCF4D97897DB567202B1DE3 |
-| _index.csv | DCC9E6E7D57B7BA57C523DE8FD8130362CB507C6AB1FF3F928758B7D43932265 |
+| 01_safe_items_chatgpt_review.md (2 items, REVIEW THIS) | 92346AB9FEA5D26BBAFB6C414987A99D86A7B3A384FB9DC83280D678DD81D574 |
+| 98_unsafe_items.md (22, informational — do not translate) | F6B15DD077692D31155E39EC1B94D05D8BD79C758813D741A836247D746BF3D2 |
+| 99_unresolved_items.md (6, informational — still held) | 51A8CF60186FA2E8CBFCEA4B3707F4E7BD212A0839AAA55E4A5E0697ECCBCAB0 |
+| items_safety_classification.csv (30 rows, full evidence) | 2C1343CEEBA5EB15E916D87824A4C64111B9329201EF5D12A00591739C629E08 |
+| _index.csv | 96153D6CA9A5902A6213740186788B94DAEC4C3332E1B615CAFFF4F5731C3C57 |
 
-A `SHA256SUMS.txt` with the same values sits next to the files.
+`SHA256SUMS.txt` sits next to the files.
 
 ## Instructions
 
-- Review **only** `01_visible_fixed_batch.md` (46 items).
+- Review only `01_safe_items_chatgpt_review.md` (2 items).
 - `Recommended Japanese` / `Translation note` are **empty** — filling them in
   is ChatGPT's job. Claude does not author translations.
-- `98_do_not_translate.md` is informational (do not translate those items).
-- `99_review_required.md` (3 Items entries) may receive draft translations
-  but they will NOT be applied without a separate safety round.
-- Keep terminology consistent with the established project glossary
-  (e.g. Close=閉じる, Cancel=キャンセル, Ship=艦, Division=戦隊,
-  Force=部隊, OK stays OK).
-- Deliverables per established convention: `00_*_glossary.md`,
-  `01_*_reviewed.md`, `98_*_reviewed.md`, `99_*_reviewed.md`,
-  `*_review_decisions.csv`, and a short review report.
+- rgStartRange is the battle start-range radio group (`Classic` / `Long`).
+  Translate the whole group consistently.
+- Deliverables per convention: reviewed markdown + a small decision CSV
+  (stable_id, english, recommended_japanese, decision) + short report.
 
 ## Safety rules
 
-- English is matched byte-for-byte against the clean DFM: **exact match
-  only** — no fuzzy matching, no trim/strip, no newline normalisation.
-  Do not "fix" typos or unusual spacing in the English column.
-- `Items.Strings` are never applied without a safety investigation.
-- `Font.Name` and internal identifiers are do-not-translate.
+- Exact byte-for-byte English matching; no fuzzy matching, no trim/strip.
+- The 22 UNSAFE and 6 UNRESOLVED items stay untranslated regardless of any
+  draft translations that may exist.
+- Font.Name / internal identifiers: do-not-translate.
 - Runtime placeholders are not translated via the DFM.
