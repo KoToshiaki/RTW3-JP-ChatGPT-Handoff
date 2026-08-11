@@ -35,7 +35,7 @@ Those 2 are the only translation-review targets.
   is ChatGPT's job. Claude does not author translations.
 - rgStartRange is the battle start-range radio group (`Classic` / `Long`).
   Translate the whole group consistently.
-- Deliverables per convention: reviewed markdown + a small decision CSV
+- Deliverables per established convention: reviewed markdown + a small decision CSV
   (stable_id, english, recommended_japanese, decision) + short report.
 
 ## Safety rules
@@ -45,3 +45,25 @@ Those 2 are the only translation-review targets.
   draft translations that may exist.
 - Font.Name / internal identifiers: do-not-translate.
 - Runtime placeholders are not translated via the DFM.
+
+## ChatGPT review status
+
+**COMPLETE.** ChatGPT reviewed the 2 SAFE_INDEX_ONLY items and wrote the review
+outputs directly into `chatgpt_handoff/current/`.
+
+Final decisions:
+
+- `Classic` → `標準` — apply
+- `Long` → `長距離` — apply
+
+The complete `rgStartRange` TRadioGroup must be applied as a pair.
+Expected cumulative after application: **2158 + 2 = 2160**.
+
+Review outputs:
+
+- `00_safe_items_glossary.md`
+- `01_safe_items_chatgpt_review_reviewed.md`
+- `safe_items_review_decisions.csv`
+- `PLAYER_VISIBLE_ITEMS_SAFETY_ROUND_01_TRANSLATION_REVIEW_V10138.md`
+
+The 22 UNSAFE and 6 UNRESOLVED Items remain unchanged and must not be applied.
