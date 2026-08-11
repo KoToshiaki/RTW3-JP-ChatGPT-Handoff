@@ -1,0 +1,61 @@
+# --- game binaries / resource modules: never in this repo -------------------
+*.exe
+*.dll
+*.jpn
+*.JPN
+*.bcs
+*.sav
+*.dat
+*.acs
+*.des
+*.sta
+*.off
+*.sac
+*.bbi
+*.skv
+*.lyr
+*.ttp
+*.bmp
+*.jpg
+*.jpeg
+*.png
+*.ico
+
+# --- archives / bundles ------------------------------------------------------
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# --- raw binary dumps --------------------------------------------------------
+*.bin
+*.res
+*.dfm.bin
+*.pyd
+*.pyc
+__pycache__/
+
+# --- secrets -----------------------------------------------------------------
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.p12
+*.ppk
+*_rsa
+*_ed25519
+credentials*
+token*
+
+# --- project trees that must never be pushed --------------------------------
+steam_backups/
+output/
+baseline_resource_module/
+RTW3_Clean_*/
+Data/
+Save/
+work/
+failed_runtime/
+resource_dll_test/

@@ -1,0 +1,108 @@
+Stable ID,Resource,Form,Usage,Component,Class,Property,Parent,English,Current JPN value,Classification,Reason
+TDLGPICTUREMESSAGE/bnNo/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,bnNo,TButton,Caption,dlgPictureMessage,No,No,translate_candidate,通常プレイ高頻度（campaign_core）の固定UI未翻訳
+TDLGPICTUREMESSAGE/bnOK/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,bnOK,TButton,Caption,dlgPictureMessage,OK,OK,no_op,略号・記号・数値
+TDLGPICTUREMESSAGE/bnYes/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,bnYes,TButton,Caption,dlgPictureMessage,Yes,Yes,translate_candidate,通常プレイ高頻度（campaign_core）の固定UI未翻訳
+TDLGPICTUREMESSAGE/dlgPictureMessage/Font.Name,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,dlgPictureMessage,TdlgPictureMessage,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGPICTUREMESSAGE/lbMessage/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbMessage,TLabel,Caption,dlgPictureMessage,This is a rather long text that will hopefully wrap around so that we can check the word wrap function and see how it looks with rather a lare number ow words in this dialog.,This is a rather long text that will hopefully wrap around so that we can check the word wrap function and see how it looks with rather a lare number ow words in this dialog.,runtime_placeholder,設計時ダミー長文（イベント/研究本文へ実行時差し替え）
+TDLGPICTUREMESSAGE/lbMessage/Font.Name,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbMessage,TLabel,Font.Name,dlgPictureMessage,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGPICTUREMESSAGE/lbResearchCaption/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbResearchCaption,TLabel,Caption,dlgPictureMessage,This is the research caption,This is the research caption,runtime_placeholder,設計時ダミー長文（イベント/研究本文へ実行時差し替え）
+TDLGPICTUREMESSAGE/lbResearchCaption/Font.Name,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbResearchCaption,TLabel,Font.Name,dlgPictureMessage,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGPICTUREMESSAGE/lbResearchEffect/Caption,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbResearchEffect,TLabel,Caption,dlgPictureMessage,This is a rather long text that will hopefully wrap around so that we can check the word wrap function and see how it looks with rather a lare number ow words in this dialog.,This is a rather long text that will hopefully wrap around so that we can check the word wrap function and see how it looks with rather a lare number ow words in this dialog.,runtime_placeholder,設計時ダミー長文（イベント/研究本文へ実行時差し替え）
+TDLGPICTUREMESSAGE/lbResearchEffect/Font.Name,TDLGPICTUREMESSAGE,dlgPictureMessage,イベント/研究の画像メッセージ（Yes/No・キャンペーン高頻度）,lbResearchEffect,TLabel,Font.Name,dlgPictureMessage,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCAMPDIVROLE/Button2/Caption,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,Button2,TButton,Caption,dlgCampDivRole,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGCAMPDIVROLE/Label10/Caption,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,Label10,TLabel,Caption,dlgCampDivRole,Role,Role,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGCAMPDIVROLE/bnOK/Caption,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,bnOK,TButton,Caption,dlgCampDivRole,OK,OK,no_op,略号・記号・数値
+TDLGCAMPDIVROLE/cbRole/Items.Strings[0],TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,cbRole,TComboBox,Items.Strings[0],dlgCampDivRole,Screen,Screen,hold_items,非表示系プロパティ
+TDLGCAMPDIVROLE/cbRole/Items.Strings[1],TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,cbRole,TComboBox,Items.Strings[1],dlgCampDivRole,Support,Support,hold_items,非表示系プロパティ
+TDLGCAMPDIVROLE/cbRole/Items.Strings[2],TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,cbRole,TComboBox,Items.Strings[2],dlgCampDivRole,Core,Core,hold_items,非表示系プロパティ
+TDLGCAMPDIVROLE/dlgCampDivRole/Caption,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,dlgCampDivRole,TdlgCampDivRole,Caption,(form root),Division role,Division role,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGCAMPDIVROLE/dlgCampDivRole/Font.Name,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,dlgCampDivRole,TdlgCampDivRole,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCAMPDIVROLE/lbLeadDiv/Caption,TDLGCAMPDIVROLE,dlgCampDivRole,戦隊任務設定（キャンペーン）,lbLeadDiv,TLabel,Caption,dlgCampDivRole,Lead division,Lead division,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMINEFIELDS/Button1/Caption,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,Button1,TButton,Caption,dlgMinefields,OK,OK,no_op,略号・記号・数値
+TDLGMINEFIELDS/Button2/Caption,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,Button2,TButton,Caption,dlgMinefields,Pick points,Pick points,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMINEFIELDS/bnDelete/Caption,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,bnDelete,TButton,Caption,dlgMinefields,Delete,Delete,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMINEFIELDS/bnEdit/Caption,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,bnEdit,TButton,Caption,dlgMinefields,Edit,Edit,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMINEFIELDS/dlgMinefields/Caption,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,dlgMinefields,TdlgMinefields,Caption,(form root),Minefields,Minefields,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMINEFIELDS/dlgMinefields/Font.Name,TDLGMINEFIELDS,dlgMinefields,機雷原一覧（キャンペーン）,dlgMinefields,TdlgMinefields,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGTOTALLOG/bnCancel/Caption,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,bnCancel,TButton,Caption,dlgTotalLog,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTOTALLOG/bnClearFilter/Caption,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,bnClearFilter,TButton,Caption,dlgTotalLog,Clear,Clear,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTOTALLOG/bnFilter/Caption,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,bnFilter,TButton,Caption,dlgTotalLog,Filter,Filter,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTOTALLOG/bnOK/Caption,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,bnOK,TButton,Caption,dlgTotalLog,OK,OK,no_op,略号・記号・数値
+TDLGTOTALLOG/dlgTotalLog/Caption,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,dlgTotalLog,TdlgTotalLog,Caption,(form root),Log,Log,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTOTALLOG/dlgTotalLog/Font.Name,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,dlgTotalLog,TdlgTotalLog,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGTOTALLOG/mmRichTotal/Font.Name,TDLGTOTALLOG,dlgTotalLog,戦闘ログ集計,mmRichTotal,TRichEdit,Font.Name,dlgTotalLog,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGGENERICLIST/bnCancel/Caption,TDLGGENERICLIST,dlgGenericList,汎用リストダイアログ（複数箇所から使用）,bnCancel,TButton,Caption,dlgGenericList,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGGENERICLIST/bnCopyClip/Caption,TDLGGENERICLIST,dlgGenericList,汎用リストダイアログ（複数箇所から使用）,bnCopyClip,TButton,Caption,dlgGenericList,Copy to clipboard,Copy to clipboard,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGGENERICLIST/bnOK/Caption,TDLGGENERICLIST,dlgGenericList,汎用リストダイアログ（複数箇所から使用）,bnOK,TButton,Caption,dlgGenericList,OK,OK,no_op,略号・記号・数値
+TDLGGENERICLIST/dlgGenericList/Caption,TDLGGENERICLIST,dlgGenericList,汎用リストダイアログ（複数箇所から使用）,dlgGenericList,TdlgGenericList,Caption,(form root),List,List,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGGENERICLIST/dlgGenericList/Font.Name,TDLGGENERICLIST,dlgGenericList,汎用リストダイアログ（複数箇所から使用）,dlgGenericList,TdlgGenericList,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGINPUTNUMBER/Label1/Caption,TDLGINPUTNUMBER,dlgInputNumber,数値入力ダイアログ（汎用）,Label1,TLabel,Caption,dlgInputNumber,lbCaption,lbCaption,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGINPUTNUMBER/bnCancel/Caption,TDLGINPUTNUMBER,dlgInputNumber,数値入力ダイアログ（汎用）,bnCancel,TButton,Caption,dlgInputNumber,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGINPUTNUMBER/bnOk/Caption,TDLGINPUTNUMBER,dlgInputNumber,数値入力ダイアログ（汎用）,bnOk,TButton,Caption,dlgInputNumber,OK,OK,no_op,略号・記号・数値
+TDLGINPUTNUMBER/dlgInputNumber/Caption,TDLGINPUTNUMBER,dlgInputNumber,数値入力ダイアログ（汎用）,dlgInputNumber,TdlgInputNumber,Caption,(form root),Input number,Input number,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGINPUTNUMBER/dlgInputNumber/Font.Name,TDLGINPUTNUMBER,dlgInputNumber,数値入力ダイアログ（汎用）,dlgInputNumber,TdlgInputNumber,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGMAPMESSAGE/Panel1/Caption,TDLGMAPMESSAGE,dlgMapMessage,地図メッセージ,Panel1,TPanel,Caption,dlgMapMessage,Panel1,Panel1,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGMAPMESSAGE/bnAccept/Caption,TDLGMAPMESSAGE,dlgMapMessage,地図メッセージ,bnAccept,TButton,Caption,dlgMapMessage,Accept,Accept,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMAPMESSAGE/bnDecline/Caption,TDLGMAPMESSAGE,dlgMapMessage,地図メッセージ,bnDecline,TButton,Caption,dlgMapMessage,Decline,Decline,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMAPMESSAGE/dlgMapMessage/Caption,TDLGMAPMESSAGE,dlgMapMessage,地図メッセージ,dlgMapMessage,TdlgMapMessage,Caption,(form root),Battle,Battle,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGMAPMESSAGE/dlgMapMessage/Font.Name,TDLGMAPMESSAGE,dlgMapMessage,地図メッセージ,dlgMapMessage,TdlgMapMessage,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGPICKSHIP/Button1/Caption,TDLGPICKSHIP,dlgPickShip,艦選択ダイアログ,Button1,TButton,Caption,dlgPickShip,OK,OK,no_op,略号・記号・数値
+TDLGPICKSHIP/Button2/Caption,TDLGPICKSHIP,dlgPickShip,艦選択ダイアログ,Button2,TButton,Caption,dlgPickShip,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGPICKSHIP/Button3/Caption,TDLGPICKSHIP,dlgPickShip,艦選択ダイアログ,Button3,TButton,Caption,dlgPickShip,Details,Details,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGPICKSHIP/dlgPickShip/Caption,TDLGPICKSHIP,dlgPickShip,艦選択ダイアログ,dlgPickShip,TdlgPickShip,Caption,(form root),Pick ship as reparation,Pick ship as reparation,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGPICKSHIP/dlgPickShip/Font.Name,TDLGPICKSHIP,dlgPickShip,艦選択ダイアログ,dlgPickShip,TdlgPickShip,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGSELECTLEAD/bnCancel/Caption,TDLGSELECTLEAD,dlgSelectLead,先導艦選択,bnCancel,TButton,Caption,dlgSelectLead,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGSELECTLEAD/bnOK/Caption,TDLGSELECTLEAD,dlgSelectLead,先導艦選択,bnOK,TButton,Caption,dlgSelectLead,OK,OK,no_op,略号・記号・数値
+TDLGSELECTLEAD/dlgSelectLead/Caption,TDLGSELECTLEAD,dlgSelectLead,先導艦選択,dlgSelectLead,TdlgSelectLead,Caption,(form root),Select new lead ship,Select new lead ship,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGSELECTLEAD/dlgSelectLead/Font.Name,TDLGSELECTLEAD,dlgSelectLead,先導艦選択,dlgSelectLead,TdlgSelectLead,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGSELECTSHIP/Button1/Caption,TDLGSELECTSHIP,dlgSelectShip,艦選択,Button1,TButton,Caption,dlgSelectShip,OK,OK,no_op,略号・記号・数値
+TDLGSELECTSHIP/Button2/Caption,TDLGSELECTSHIP,dlgSelectShip,艦選択,Button2,TButton,Caption,dlgSelectShip,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGSELECTSHIP/dlgSelectShip/Caption,TDLGSELECTSHIP,dlgSelectShip,艦選択,dlgSelectShip,TdlgSelectShip,Caption,(form root),dlgSelectShip,dlgSelectShip,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGSELECTSHIP/dlgSelectShip/Font.Name,TDLGSELECTSHIP,dlgSelectShip,艦選択,dlgSelectShip,TdlgSelectShip,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGTARGETS/bnCancel/Caption,TDLGTARGETS,dlgTargets,目標一覧（戦闘）,bnCancel,TButton,Caption,dlgTargets,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTARGETS/bnOK/Caption,TDLGTARGETS,dlgTargets,目標一覧（戦闘）,bnOK,TButton,Caption,dlgTargets,OK,OK,no_op,略号・記号・数値
+TDLGTARGETS/dlgTargets/Caption,TDLGTARGETS,dlgTargets,目標一覧（戦闘）,dlgTargets,TdlgTargets,Caption,(form root),Target divisions,Target divisions,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGTARGETS/dlgTargets/Font.Name,TDLGTARGETS,dlgTargets,目標一覧（戦闘）,dlgTargets,TdlgTargets,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TFRMTARGETS/bnClose/Caption,TFRMTARGETS,frmTargets,目標ウィンドウ（戦闘）,bnClose,TButton,Caption,frmTargets,Close,Close,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TFRMTARGETS/frmTargets/Caption,TFRMTARGETS,frmTargets,目標ウィンドウ（戦闘）,frmTargets,TfrmTargets,Caption,(form root),Targets,Targets,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TFRMTARGETS/frmTargets/Font.Name,TFRMTARGETS,frmTargets,目標ウィンドウ（戦闘）,frmTargets,TfrmTargets,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGHITDETAILS/Button1/Caption,TDLGHITDETAILS,dlgHitDetails,命中詳細（戦闘）,Button1,TButton,Caption,dlgHitDetails,Close,Close,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGHITDETAILS/dlgHitDetails/Caption,TDLGHITDETAILS,dlgHitDetails,命中詳細（戦闘）,dlgHitDetails,TdlgHitDetails,Caption,(form root),dlgHitDetails,dlgHitDetails,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGHITDETAILS/dlgHitDetails/Font.Name,TDLGHITDETAILS,dlgHitDetails,命中詳細（戦闘）,dlgHitDetails,TdlgHitDetails,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGHITDETAILS/lbRoundsFiredAt/Caption,TDLGHITDETAILS,dlgHitDetails,命中詳細（戦闘）,lbRoundsFiredAt,TLabel,Caption,dlgHitDetails,Rounds fired at ship last turn:,Rounds fired at ship last turn:,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGHITDETAILS/mmHits/Lines.Strings[0],TDLGHITDETAILS,dlgHitDetails,命中詳細（戦闘）,mmHits,TMemo,Lines.Strings[0],dlgHitDetails,mmHits,mmHits,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGACCURACY/Button1/Caption,TDLGACCURACY,dlgAccuracy,命中精度（戦闘）,Button1,TButton,Caption,dlgAccuracy,Close,Close,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGACCURACY/dlgAccuracy/Caption,TDLGACCURACY,dlgAccuracy,命中精度（戦闘）,dlgAccuracy,TdlgAccuracy,Caption,(form root),Accuracy report,Accuracy report,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGACCURACY/dlgAccuracy/Font.Name,TDLGACCURACY,dlgAccuracy,命中精度（戦闘）,dlgAccuracy,TdlgAccuracy,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGIMPORTDIV/bnCancel/Caption,TDLGIMPORTDIV,dlgImportDiv,戦隊インポート,bnCancel,TButton,Caption,dlgImportDiv,Cancel,Cancel,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGIMPORTDIV/bnOK/Caption,TDLGIMPORTDIV,dlgImportDiv,戦隊インポート,bnOK,TButton,Caption,dlgImportDiv,OK,OK,no_op,略号・記号・数値
+TDLGIMPORTDIV/dlgImportDiv/Caption,TDLGIMPORTDIV,dlgImportDiv,戦隊インポート,dlgImportDiv,TdlgImportDiv,Caption,(form root),Import division,Import division,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGIMPORTDIV/dlgImportDiv/Font.Name,TDLGIMPORTDIV,dlgImportDiv,戦隊インポート,dlgImportDiv,TdlgImportDiv,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/Button1/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,Button1,TButton,Caption,dlgEventAnswer,OK,OK,no_op,レビュー済みno_op（residual_ui）
+TDLGEVENTANSWER/Panel1/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,Panel1,TPanel,Font.Name,dlgEventAnswer,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/RadioButton1/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton1,TRadioButton,Caption,Panel1,RadioButton1,RadioButton1,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGEVENTANSWER/RadioButton1/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton1,TRadioButton,Font.Name,Panel1,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/RadioButton2/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton2,TRadioButton,Caption,Panel1,Meet with their leaders and talk about the importance of a strong navy to defend our political liberties. This might upset conservative circles.,Meet with their leaders and talk about the importance of a strong navy to defend our political liberties. This might upset conservative circles.,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGEVENTANSWER/RadioButton2/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton2,TRadioButton,Font.Name,Panel1,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/RadioButton3/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton3,TRadioButton,Caption,Panel1,RadioButton3,RadioButton3,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGEVENTANSWER/RadioButton3/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,RadioButton3,TRadioButton,Font.Name,Panel1,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/dlgEventAnswer/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,dlgEventAnswer,TdlgEventAnswer,Caption,(form root),dlgEventAnswer,dlgEventAnswer,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGEVENTANSWER/dlgEventAnswer/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,dlgEventAnswer,TdlgEventAnswer,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGEVENTANSWER/lbEventCaption/Caption,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,lbEventCaption,TLabel,Caption,dlgEventAnswer,lbEventCaption,lbEventCaption,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGEVENTANSWER/lbEventCaption/Font.Name,TDLGEVENTANSWER,dlgEventAnswer,イベント回答（既訳フォームの残1件）,lbEventCaption,TLabel,Font.Name,dlgEventAnswer,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGRESEARCHDETAILS/Close/Caption,TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,Close,TButton,Caption,dlgResearchDetails,Close,Close,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGRESEARCHDETAILS/dlgResearchDetails/Caption,TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,dlgResearchDetails,TdlgResearchDetails,Caption,(form root),Research Details,Research Details,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TDLGRESEARCHDETAILS/dlgResearchDetails/Font.Name,TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,dlgResearchDetails,TdlgResearchDetails,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGRESEARCHDETAILS/lbProgress/Caption,TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,lbProgress,TLabel,Caption,dlgResearchDetails,lbProgress,lbProgress,runtime_placeholder,設計時placeholder（実行時上書き）
+TDLGRESEARCHDETAILS/lbProgress/Font.Name,TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,lbProgress,TLabel,Font.Name,dlgResearchDetails,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGRESEARCHDETAILS/mmLevels/Lines.Strings[0],TDLGRESEARCHDETAILS,dlgResearchDetails,研究詳細（残1件）,mmLevels,TMemo,Lines.Strings[0],dlgResearchDetails,mmLevels,mmLevels,runtime_placeholder,設計時placeholder（実行時上書き）
+TFRMDIVISIONS/frmDivisions/Caption,TFRMDIVISIONS,frmDivisions,戦隊一覧（既訳フォームの残1件）,frmDivisions,TfrmDivisions,Caption,(form root),Division editor,Division editor,translate_candidate,通常プレイ（campaign）の固定UI未翻訳
+TFRMDIVISIONS/frmDivisions/Font.Name,TFRMDIVISIONS,frmDivisions,戦隊一覧（既訳フォームの残1件）,frmDivisions,TfrmDivisions,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCREDITS/dlgCredits/Caption,TDLGCREDITS,dlgCredits,クレジット,dlgCredits,TdlgCredits,Caption,(form root),Credits,Credits,translate_candidate,通常プレイ（reference）の固定UI未翻訳
+TDLGCREDITS/dlgCredits/Font.Name,TDLGCREDITS,dlgCredits,クレジット,dlgCredits,TdlgCredits,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCREDITS2/dlgCredits2/Caption,TDLGCREDITS2,dlgCredits2,クレジット2,dlgCredits2,TdlgCredits2,Caption,(form root),RTW II Credits,RTW II Credits,translate_candidate,通常プレイ（reference）の固定UI未翻訳
+TDLGCREDITS2/dlgCredits2/Font.Name,TDLGCREDITS2,dlgCredits2,クレジット2,dlgCredits2,TdlgCredits2,Font.Name,(form root),MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCREDITS2/lbMatrixForum/Caption,TDLGCREDITS2,dlgCredits2,クレジット2,lbMatrixForum,TLabel,Caption,dlgCredits2,Matrix Games Forum,Matrix Games Forum,translate_candidate,通常プレイ（reference）の固定UI未翻訳
+TDLGCREDITS2/lbMatrixForum/Font.Name,TDLGCREDITS2,dlgCredits2,クレジット2,lbMatrixForum,TLabel,Font.Name,dlgCredits2,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
+TDLGCREDITS2/lbNWSForum/Caption,TDLGCREDITS2,dlgCredits2,クレジット2,lbNWSForum,TLabel,Caption,dlgCredits2,NWS Forum,NWS Forum,translate_candidate,通常プレイ（reference）の固定UI未翻訳
+TDLGCREDITS2/lbNWSForum/Font.Name,TDLGCREDITS2,dlgCredits2,クレジット2,lbNWSForum,TLabel,Font.Name,dlgCredits2,MS Sans Serif,MS Sans Serif,do_not_translate,非表示系プロパティ
